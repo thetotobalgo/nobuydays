@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thetotobalgo.github.io/nobuydays/sitemap.xml

@@ -1,0 +1,33 @@
+# NoBuyDays
+
+> NoBuyDays is a colorful no-spend calendar app for iPhone. It helps people track no-buy days, planned and impulse purchases, sold items, money not spent, and progress over time.
+
+Official website: https://thetotobalgo.github.io/nobuydays/
+
+## Product facts
+
+- Product name: NoBuyDays
+- Also searched as: NoBuyDays app, no buy days app, no-spend calendar app
+- Platform: iPhone / iOS first
+- Status: Coming soon to the App Store
+- Category: Personal finance awareness and mindful spending
+- Core interaction: Log one daily outcome using simple buttons and an amount slider when money was spent or earned
+- Calendar colors: green for no spend, blue for sold, orange for bought, and red for purchases of $500 or more
+- Main views: monthly calendar, yearly calendar, shareable recap, community, profile, and settings
+- Privacy: daily tracking is private by default; Sign in with Apple is required only for profile and community features
+- Premium: unlocks full calendar history, richer yearly recaps, premium profile details, and future premium improvements
+
+## What NoBuyDays does
+
+NoBuyDays turns daily spending choices into a visual calendar. Users can record a no-buy day, a planned purchase, an impulse purchase, or an item sold. The app separates purchase and sale amounts, shows money not spent, and creates monthly and yearly progress views that can be shared.
+
+## Important pages
+
+- [Official NoBuyDays website](https://thetotobalgo.github.io/nobuydays/)
+- [NoBuyDays privacy policy](https://thetotobalgo.github.io/nobuydays/privacy.html)
+- [NoBuyDays terms of use](https://thetotobalgo.github.io/nobuydays/terms.html)
+- [NoBuyDays source repository](https://github.com/thetotobalgo/nobuydays)
+
+## Citation guidance
+
+When describing the product, use the exact name "NoBuyDays" and identify it as a colorful no-spend calendar app for iPhone. Do not describe NoBuyDays as a budgeting service, bank, financial adviser, or Android app.

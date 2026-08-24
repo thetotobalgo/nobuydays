@@ -1,0 +1,11 @@
+{
+  "name": "NoBuyDays",
+  "short_name": "NoBuyDays",
+  "description": "The colorful no-spend calendar app for iPhone.",
+  "start_url": "/nobuydays/",
+  "scope": "/nobuydays/",
+  "display": "standalone",
+  "background_color": "#fffefa",
+  "theme_color": "#082a27",
+  "lang": "en"
+}
