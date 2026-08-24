@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082a27">
+  <meta name="description" content="NoBuyDays turns no-spend days, purchases, and sales into a colorful calendar you will want to keep going.">
+  <meta property="og:title" content="NoBuyDays - Buy less. Keep more.">
+  <meta property="og:description" content="A colorful no-spend calendar for iPhone.">
+  <meta property="og:type" content="website">
+  <title>NoBuyDays - Buy less. Keep more.</title>
+  <link rel="icon" href="assets/app-home.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="NoBuyDays home">
+      <span class="brand-mark" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </span>
+      <span class="wordmark">NoBuyDays</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+      <i data-lucide="menu"></i>
+    </button>
+
+    <nav class="nav-links" aria-label="Primary navigation" data-nav>
+      <a href="#how-it-works">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a class="download-link" href="#download">App Store</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="calendar-pattern" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">THE COLORFUL NO-SPEND TRACKER</p>
+        <h1 id="hero-title">Buy less.<br>Keep more.</h1>
+        <p class="hero-lead">
+          Turn no-buy days, purchases, and sales into one calendar that makes your progress impossible to miss.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-cta" href="#how-it-works">
+            <i data-lucide="arrow-down"></i>
+            See how it works
+          </a>
+          <span class="store-badge" aria-label="Coming soon to the App Store">
+            <i data-lucide="smartphone"></i>
+            <span><small>COMING SOON TO THE</small>App Store</span>
+          </span>
+        </div>
+        <p class="hero-note"><i data-lucide="shield-check"></i> iPhone-first &middot; Private by default</p>
+      </div>
+
+      <div class="hero-product reveal" aria-label="NoBuyDays app preview">
+        <div class="phone-shell hero-phone">
+          <img src="assets/app-home.png" alt="NoBuyDays monthly no-spend calendar on iPhone" width="1206" height="2622">
+        </div>
+        <div class="money-sticker" aria-hidden="true">
+          <strong>$503</strong>
+          <span>not spent</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip reveal" aria-label="NoBuyDays at a glance">
+      <div>
+        <strong>1 glance</strong>
+        <span>to understand your month</span>
+      </div>
+      <div class="proof-divider" aria-hidden="true"></div>
+      <div class="proof-colors" aria-label="No spend, sold, bought, and large purchase colors">
+        <span class="swatch green"></span>
+        <span class="swatch blue"></span>
+        <span class="swatch orange"></span>
+        <span class="swatch red"></span>
+      </div>
+    </section>
+
+    <section class="how section" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-heading reveal">
+        <p class="section-label">HOW IT WORKS</p>
+        <h2 id="how-title">One daily choice.<br>One honest calendar.</h2>
+        <p>No budgets to maintain and no receipts to scan. Just log what happened and keep moving.</p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step reveal">
+          <div class="phone-shell step-phone">
+            <img src="assets/app-log.png" alt="NoBuyDays daily entry screen with spend amount slider" width="1206" height="2622" loading="lazy">
+          </div>
+          <span class="step-number green-bg">1</span>
+          <h3>Log the day in seconds</h3>
+          <p>No spend, planned buy, impulse buy, or something sold. Add the amount with one slider.</p>
+        </article>
+
+        <article class="step reveal">
+          <div class="phone-shell step-phone">
+            <img src="assets/app-home.png" alt="NoBuyDays color-coded monthly calendar" width="1206" height="2622" loading="lazy">
+          </div>
+          <span class="step-number blue-bg">2</span>
+          <h3>See the pattern, not the guilt</h3>
+          <p>Green for no spend, blue for sold, orange for bought, and red when a purchase crosses $500.</p>
+        </article>
+
+        <article class="step reveal">
+          <div class="phone-shell step-phone">
+            <img src="assets/app-year.png" alt="NoBuyDays yearly calendar and share banner" width="1206" height="2622" loading="lazy">
+          </div>
+          <span class="step-number orange-bg">3</span>
+          <h3>Share a year worth seeing</h3>
+          <p>Turn your progress into a clean yearly recap made for friends, Reddit, or your own camera roll.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features section-band" id="features" aria-labelledby="features-title">
+      <div class="section-heading reveal">
+        <p class="section-label">FEATURES</p>
+        <h2 id="features-title">Less friction. More awareness.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card green-tint reveal">
+          <i data-lucide="calendar-days"></i>
+          <h3>Color-coded calendar</h3>
+          <p>Your buying behavior becomes a picture you can understand at a glance.</p>
+        </article>
+        <article class="feature-card blue-tint reveal">
+          <i data-lucide="circle-dollar-sign"></i>
+          <h3>Money not spent</h3>
+          <p>Track what you kept by skipping purchases, without pretending it is cash in a bank account.</p>
+        </article>
+        <article class="feature-card orange-tint reveal">
+          <i data-lucide="arrow-left-right"></i>
+          <h3>Bought vs. sold</h3>
+          <p>Separate money going out from items moving out, with clear totals for each.</p>
+        </article>
+        <article class="feature-card pink-tint reveal">
+          <i data-lucide="image"></i>
+          <h3>Shareable yearly recap</h3>
+          <p>Twelve monthly calendars, one color key, and the numbers that tell your story.</p>
+        </article>
+        <article class="feature-card neutral-tint reveal">
+          <i data-lucide="lock-keyhole"></i>
+          <h3>Private by default</h3>
+          <p>Your calendar stays yours. An Apple account is only needed for profile and community tools.</p>
+        </article>
+        <article class="feature-card yellow-tint reveal">
+          <i data-lucide="users"></i>
+          <h3>Community, on your terms</h3>
+          <p>Create small groups, add friends, and keep accountability supportive instead of performative.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="insight-band" aria-labelledby="insight-title">
+      <div class="insight-copy reveal">
+        <p class="section-label dark-label">THE SIMPLE BIT</p>
+        <h2 id="insight-title">What gets noticed gets easier to change.</h2>
+        <p>
+          A calendar makes quiet progress visible. The goal is not a perfect green year. It is noticing what happened early enough to choose differently tomorrow.
+        </p>
+        <a href="#faq" class="secondary-cta">Questions, answered <i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="insight-calendar reveal" aria-hidden="true">
+        <div class="mini-grid">
+          <span class="green"></span><span class="green"></span><span class="blue"></span><span class="green"></span><span class="orange"></span><span class="green"></span><span class="green"></span>
+          <span class="green"></span><span class="orange"></span><span class="green"></span><span class="green"></span><span class="blue"></span><span class="green"></span><span class="green"></span>
+          <span class="green"></span><span class="green"></span><span class="green"></span><span class="blue"></span><span class="green"></span><span class="orange"></span><span class="green"></span>
+          <span class="green"></span><span class="green"></span><span class="green"></span><span class="green"></span><span class="green"></span><span class="green"></span><span class="red"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="recap section" aria-labelledby="recap-title">
+      <div class="recap-visual reveal">
+        <div class="phone-shell recap-phone">
+          <img src="assets/app-premium.png" alt="NoBuyDays premium subscription screen" width="1206" height="2622" loading="lazy">
+        </div>
+      </div>
+      <div class="recap-copy reveal">
+        <p class="section-label">NOBUYDAYS PREMIUM</p>
+        <h2 id="recap-title">Keep the whole story.</h2>
+        <p>Unlock full calendar history, richer yearly recaps, premium profile details, and every future improvement.</p>
+        <ul class="check-list">
+          <li><i data-lucide="check"></i> Full calendar editing</li>
+          <li><i data-lucide="check"></i> Complete yearly history</li>
+          <li><i data-lucide="check"></i> Premium profile badge</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading reveal">
+        <p class="section-label">FAQ</p>
+        <h2 id="faq-title">Questions, answered.</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <details>
+          <summary>What counts as a no-buy day?<i data-lucide="plus"></i></summary>
+          <p>You decide. Most people exclude rent, bills, groceries, and planned essentials, then track the discretionary purchases they want to reduce.</p>
+        </details>
+        <details>
+          <summary>Can I log purchases and sales?<i data-lucide="plus"></i></summary>
+          <p>Yes. Planned buys, impulse buys, and sold items each keep their own amount so your month remains easy to read.</p>
+        </details>
+        <details>
+          <summary>Can I fill future days?<i data-lucide="plus"></i></summary>
+          <p>No. Future dates stay untouched. NoBuyDays is a record of what actually happened, not a promise you have to defend.</p>
+        </details>
+        <details>
+          <summary>Is my calendar private?<i data-lucide="plus"></i></summary>
+          <p>Yes. Sharing is intentional. A Sign in with Apple account is only required when you choose to create a profile or use community features.</p>
+        </details>
+        <details>
+          <summary>Will NoBuyDays be available on Android?<i data-lucide="plus"></i></summary>
+          <p>NoBuyDays is being built for iPhone first. Android is not part of the initial launch.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta" id="download" aria-labelledby="download-title">
+      <div class="final-copy reveal">
+        <p class="section-label dark-label">COMING TO IPHONE</p>
+        <h2 id="download-title">Ready for more green days?</h2>
+        <p>One day, one color, one clearer picture of where your money went.</p>
+        <span class="store-badge light-store">
+          <i data-lucide="smartphone"></i>
+          <span><small>COMING SOON TO THE</small>App Store</span>
+        </span>
+      </div>
+      <div class="cta-tiles" aria-hidden="true">
+        <span class="green"></span><span class="green"></span><span class="blue"></span>
+        <span class="green"></span><span class="orange"></span><span class="green"></span>
+        <span class="blue"></span><span class="green"></span><span class="red"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span class="wordmark">NoBuyDays</span>
+      </a>
+      <p>The colorful no-spend tracker for iPhone.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#how-it-works">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a href="#download">App Store</a>
+    </div>
+    <p class="copyright">&copy; <span data-year></span> NoBuyDays. All rights reserved.</p>
+  </footer>
+</body>
+</html>
